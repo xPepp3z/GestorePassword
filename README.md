@@ -1,5 +1,3 @@
-Gestore Password 🔑
-
 Un semplice programma in Java che permette di gestire i propri servizi (es. email, social, ecc.) salvando e caricando le credenziali da un file. Include una GUI (Swing) per un utilizzo più semplice.
 
 ✨ Funzionalità
