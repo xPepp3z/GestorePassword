@@ -27,9 +27,13 @@ Salvataggio su file .txt
 📂 Struttura del progetto
 GestorePassword/
 ├── dati.java        # Classe per memorizzare le credenziali di un servizio
+
 ├── gestore.java     # Classe principale per gestire i servizi (aggiunta, rimozione, salvataggio)
+
 ├── gui.java         # Interfaccia grafica
+
 ├── main.java        # Entry point del programma
+
 └── save.txt         # File di salvataggio delle credenziali
 
 🚀 Esecuzione
