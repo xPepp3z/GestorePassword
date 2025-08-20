@@ -1,72 +1,56 @@
-Un semplice programma in Java che permette di gestire i propri servizi (es. email, social, ecc.) salvando e caricando le credenziali da un file. Include una GUI (Swing) per un utilizzo più semplice.
+# 🔐 Gestore Password – Java Swing
 
-✨ Funzionalità
+Benvenut* nel repository del mio progetto **Gestore Password**, un'applicazione desktop realizzata in **Java** con interfaccia grafica **Swing**, pensata per gestire in modo semplice i propri servizi e le relative password.
 
-Aggiungere un nuovo servizio con email e password.
+---
 
-Rimuovere un servizio esistente.
+## 👨‍💻 Su questo progetto
 
-Visualizzare la lista dei servizi salvati.
+Questo progetto nasce dall'esigenza di creare un **contenitore sicuro per le proprie password**, che permetta di aggiungere, rimuovere e visualizzare servizi con facilità.  
+I dati vengono salvati in un file locale (`save.txt`) per mantenerli persistenti tra le sessioni.  
 
-Salvataggio automatico su file (save.txt).
+> 🛠️ *Work in progress – Sto ancora migliorando funzionalità e interfaccia!*
 
-Caricamento automatico dei dati all'avvio.
+---
 
-Interfaccia grafica centrata e con font personalizzati.
+## 🧩 Tecnologie usate
 
+- **Java**
+- **Java Swing** (GUI)
+- **File I/O** (per salvataggio e caricamento dati)
+- **Serializable** (per persistenza oggetti)
 
-🛠️ Tecnologie
+---
 
-Java 17+
+## 📁 Struttura del progetto
 
-Swing per la GUI
+- `main.java`: Classe principale che avvia l'applicazione
+- `gui.java`: Interfaccia grafica con gestione pulsanti e finestre
+- `gestore.java`: Logica di gestione utenti e salvataggio/caricamento file
+- `dati.java`: Classe dati per rappresentare ogni servizio con email e password
+- `save.txt`: File di salvataggio dei dati (generato automaticamente)
 
-Salvataggio su file .txt
+---
 
+## 🔗 Come usare
 
-📂 Struttura del progetto
+1. Aprire il progetto in un IDE Java (Eclipse, IntelliJ, NetBeans…)
+2. Eseguire `main.java`
+3. Usare i pulsanti per **aggiungere**, **rimuovere** o **mostrare** i servizi
+4. Chiudendo il programma, le informazioni vengono **salvate automaticamente** nel file `save.txt`
 
-GestorePassword/
+---
 
-├── dati.java        # Classe per memorizzare le credenziali di un servizio
+## 🤝 Contatti
 
-├── gestore.java     # Classe principale per gestire i servizi (aggiunta, rimozione, salvataggio)
+- Email: `giuseppegravagno57@gmail.com`
+- Email scolastica: `giuseppe.gravagno@stevejobs.academy`
+- LinkedIn: [(https://www.linkedin.com/in/giuseppe-gravagno-955627365)]
+- GitHub: [(https://github.com/xpepp3z)]
 
-├── gui.java         # Interfaccia grafica
+---
 
-├── main.java        # Entry point del programma
+## 📌 Note finali
 
-└── save.txt         # File di salvataggio delle credenziali
-
-
-🚀 Esecuzione
-
-Clona la repository:
-
-git clone https://github.com/tuo-username/GestorePassword.git
-
-cd GestorePassword
-
-
-Compila i file Java:
-
-javac GestorePassword/*.java
-
-
-Avvia il programma:
-
-java GestorePassword.main
-
-
-📖 Note
-
-Il file save.txt viene creato automaticamente nella directory principale del progetto.
-
-Se vuoi cambiare il nome o il percorso del file di salvataggio, modifica le chiamate a:
-
-g.caricaDaFile("save.txt");
-g.salvaSuFile("save.txt");
-
-🧑‍💻 Autore
-
-Progetto sviluppato da [Giuseppe Gravagno] come esercizio Java e Swing.
+Il progetto è aperto a suggerimenti e miglioramenti.  
+Ogni feedback è benvenuto!
